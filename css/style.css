@@ -418,6 +418,8 @@ a:focus {
   background-color: #f8f8f9;
   padding: 20px;
   border-radius: 5px;
+  text-align: center;
+  height: 100%;
 }
 
 .service_section .box .img-box {
@@ -928,3 +930,10 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
